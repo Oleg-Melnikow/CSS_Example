@@ -49,6 +49,8 @@ body {
 
 .button:hover::before{
     animation: anime .7s 1;
+    top: -10%;
+    left: -10%;
 }
 
 @keyframes anime {
