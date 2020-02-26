@@ -40,3 +40,35 @@ h3{
 #form .container{
     position: relative;
 }
+
+#text{
+    display: block;
+    color: #000;
+    font-weight: 500;
+    font-style: italic;
+    padding: 5px;
+}
+
+#form.invalid .container:before{
+    content: "";
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    width: 24px;
+    height: 24px;
+    background: url("error.png");
+    background-size: cover;
+    z-index: 1000;
+}
+
+#form.valid .container:before{
+    content: "";
+    position: absolute;
+    right: 12px;
+    top: 10px;
+    width: 28px;
+    height: 28px;
+    background: url("success.png");
+    background-size: cover;
+    z-index: 1000;
+}
