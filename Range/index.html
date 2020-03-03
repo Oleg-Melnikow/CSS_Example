@@ -8,7 +8,11 @@
 <body>
     <div>
         <span id="rangeValue">0</span>
-        <input class="range" type="range" name="" value="0" min="0" max="100">
+        <input class="range" type="range"
+               name="" value="0" min="0" max="100"
+               onmousemove="range(this.value)"
+               onchange="range(this.value)">
     </div>
+    <script src="range.js"></script>
 </body>
 </html>
