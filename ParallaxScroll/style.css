@@ -40,7 +40,7 @@ body{
     position: absolute;
     right: 0;
     width: 100%;
-    transform: translateY(-50%);
+    transform: translateY(50%);
 }
 
 .content{
