@@ -6,10 +6,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="checkbox">
-    <div class="inner">
-        <div class="toggle"></div>
+    <div class="checkbox">
+        <div class="inner">
+            <div class="toggle"></div>
+        </div>
     </div>
-</div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".toggle").click(function () {
+                $(".inner").toggleClass("active")
+            })
+        })
+    </script>
 </body>
 </html>
