@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+#circle-shape {
+    font-family: Open Sans, sans-serif;
+    margin: 2rem;
+}
+#circle-shape p {
+    line-height: 1.8;
+}
+#circle-shape .circle-1, #circle-shape .circle-2 {
+    width: 33%;
+    min-width: 150px;
+    float: left;
+    margin-right:2rem;
+    border-radius: 50%;
+    -webkit-shape-outside:circle();
+    shape-outside:circle();
+}
+
+#circle-shape .circle-2{
+    float: right;
+    margin: 0;
+    max-width: 320px;
+}
